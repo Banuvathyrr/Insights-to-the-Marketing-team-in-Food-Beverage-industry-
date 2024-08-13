@@ -103,17 +103,19 @@ The dataset contains 3 csv files:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Exploratory Data Analysis
 
-I have added 3 important pages.  
-1) Sales performance tracking
-2) Vendor performance analysis
-3) Manager level analysis  
+I have added 5 important pages.  
+1) Demographic insights  
+2) Consumer Preference
+3) Competition analysis
+4) Brand penetration
+5) Brand perception 
 
-Additional information will be available in Top 10 vendor, Manager and vendor info pages.  
 
-**Sales Performance**   
-a) In sales performance report page, 4 cards were inserted to show Total sales, Total quantity sold, Average sales amount and Total orders.  
-b) A **line chart** with total sales over Order month shown in the left of the report.  
-c) Two Period selector slicer has been created. One for showing **14 days Moving average and latest 3 months sales over order date** (line plot)  
+
+**Demographic insights**   
+a) In Demographic report page, 4 cards were inserted to show Total respondents, Total number of cities, Total number of males and females.  
+b) A **Bar chart** shows total respondents for each city.  
+c) A **Pie chart** gives the percentage split of total respondents for each gender.
 d) Second Period selector slicer helps to view the **last 7, 14 and 28 days sales amount**  (line plot)  
 e) Page navigator icons (buttons with image) added at the left of the report page to help for navigation to other pages  
 
