@@ -11,14 +11,16 @@ This dashboard will enable the marketing team to convert survey results to meani
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Data Sources
-The dataset contains 3 excel files:
-1. Sales
-2. Item-Vendor
-3. Vendor-Manager
+The dataset contains 3 csv files:
+1. dim_cities
+2. dim_respondents
+3. fact_survey_responses
    
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Tools
-- PowerBi -Data Cleaning, Data analysis and creating dashboards
+- SQL
+- PowerBI -Data Cleaning, Data Visualization and creating dashboards
+- MS Powerpoint - powerpoint presentation
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -26,74 +28,77 @@ The dataset contains 3 excel files:
 - Column names renamed.  
 - Checked datatype of each column and changed it if there is any mismatch.  
 - Rows having errors and empty values were checked and removed.
-- New columns such as Sales, VendorName and Manager were created in Sales table for better analysis of the data.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Data Modelling
-To resolve the ambiguity caused by many-to-many relationships between the Sales table and ItemVendor table, and between the ItemVendor table and VendorManager table, 
-two bridge tables were created: BridgeItem and BridgeVendor. This approach transformed the many-to-many relationships into one-to-many relationships, ensuring clearer 
-and more accurate data connections.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/74cd5132-ba46-43b0-8f4f-f5b77446b316" alt="Data Model">
-</p>  
+**dim_respondents and fact_survey_responses**:  
+- dim_respondents has a primary key respondent_ID.  
+- fact_survey_responses contains a unique respondent_id which serves as a foreign key.  
+**Since fact_survey_responses contains a unique respondent_id, there is a one-to-one relationship between dim_respondents and fact_survey_responses.** 
 
-- Sales[item_id] connected to BridgeItemId[item_id] (many-to-one) 
-- BridgeItemId[item_id] connected to ItemVendor[item_id] (one-to-many)  
-- ItemVendor[vendor] connected to BridgeVendor[vendor] (many-to-one)  
-- BridgeVendor[vendor] connected to VendorManager[vendor] (one-to-many)
+**dim_respondents and dim_cities:**
+- dim_respondents has a foreign key city_ID referring to dim_cities.  
+- dim_cities has a primary key city_ID.  
+**Each respondent can belong to one city, but a city can have multiple respondents. This establishes a many-to-one relationship between dim_respondents and dim_cities.**    
 
-Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendor table should contain distinct rows of Vendors
+**Summary of Cardinality:**    
+- dim_respondents to fact_survey_responses: One-to-One  
+- dim_respondents to dim_cities: Many-to-One    
+
+![image](https://github.com/user-attachments/assets/6e37fc04-6133-4e79-abf8-99ec80174656)
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Following Calculated Columns, Measures and tables were created
  - **Calculated columns added in Sales table**
-   1) VendorName  
-      ![image](https://github.com/user-attachments/assets/8f321f3d-39b0-4d56-aa3d-7b7512d7ea6a)  
-
-   3) Manager  
-      ![image](https://github.com/user-attachments/assets/7f7239cf-52d1-486b-9988-e93604c8093e)  
-
-   5) Order Month  
-      ![image](https://github.com/user-attachments/assets/f895008d-7a52-4318-8d47-562c948abe52)  
+   1) **HealthConcernFlag**
+  
+     ![image](https://github.com/user-attachments/assets/93fc1fca-8ac6-4866-a9e2-861c47ff5e6e)
 
       
- - **Tables**
-   1) PeriodSelection  
-      ![image](https://github.com/user-attachments/assets/2487cef6-03d6-4a96-b1ff-1b3defa53f3a)
-   2) MASales  
-      ![image](https://github.com/user-attachments/assets/ba3ff9f3-ac09-4759-ba42-057a49939229)
-   3) Total Sales per Item  
-      ![image](https://github.com/user-attachments/assets/9cd54ca6-bc3f-4c6d-a4e9-9c97eafb7819)  
-   4) Ranked Items    
-      ![image](https://github.com/user-attachments/assets/e4bc5025-034b-4c35-be2d-52869b4ba178)    
-   5) Second best selling item  
-      ![image](https://github.com/user-attachments/assets/a471c516-dce9-4c6a-918d-88454071e80a)
-   6) Total quantity sold per item  
-      ![image](https://github.com/user-attachments/assets/9db85c3a-f04b-4d1c-8161-5254ddf047d4)
-   7) Select Items  
-      ![image](https://github.com/user-attachments/assets/a479ee10-3611-4ad8-8aa4-7ee9d890dfe4)
-
-        
+       
  - **Measures created in Sales table**
-   1) Total Sales   
-      ```TotalSales = SUM(Sales[Sales])```  
-   2) Total No. of Vendors  
-      ```Total No Of Vendors = DISTINCTCOUNT(Sales[VendorName])```
-   3) Total Quantity Sold  
-      ```Total Quantity = SUM(Sales[Quantity])```
-   4) Total Orders  
-      ```Total Orders = SUM(Sales[Order_ID])```
-   5) Total no. of Managers  
-      ```Total Managers = DISTINCTCOUNT(Sales[Manager])```
-   6) Average sales amount  
-      ```Average sales amount = AVERAGE(Sales[Sales])```
-   7) SelectPeriodsales (Last 7, 14 and 28 days sales)  
-        ![image](https://github.com/user-attachments/assets/22453726-846b-4c95-b3fb-3c6811b321cf)
-   8) MASelecsales (14 days moving average, latest 3 months sales  
-      ![image](https://github.com/user-attachments/assets/7ea59026-b758-4b9e-9eb0-6f08dfd3e342)  
-      ![image](https://github.com/user-attachments/assets/ee6880a2-3491-4e19-86c9-35c99e54dc50)
-   9) Total items by each manager  
-      ![image](https://github.com/user-attachments/assets/85dbcbcc-7f86-428e-b4ed-2ca99d111f8a)  
+   1) Avg Taste experience   
+      ```Avg Taste experience = AVERAGE(fact_survey_responses[Taste_experience])```
+      
+   2) Count of Consumer frequency    
+      ```Count of Consumer frequency = COUNT(fact_survey_responses[Consume_frequency])```  
+      
+   3) Count of consumption situation    
+      ```Count of consumption situation = COUNT(fact_survey_responses[Typical_consumption_situations])```
+      
+   4) Count of each Brand  
+      ```Count of each Brand = COUNT(fact_survey_responses[Current_brands])```
+      
+   5) Improvements_desired  
+      ```Improvements_desired = count(fact_survey_responses[Improvements_desired])```
+      
+   6) PercentageOfHealthConcern
+      
+      ![image](https://github.com/user-attachments/assets/dea2ce0e-9941-4b80-9fbd-f509020c2419)
+
+      
+   7) PercentageOfNoHealthConcern  
+
+       ![image](https://github.com/user-attachments/assets/15914d44-5615-45fe-be84-1451e4103ec8)
+
+   8) Top_Brand
+
+        ![image](https://github.com/user-attachments/assets/fbc4f69e-1870-459f-a018-585a42abc0b2)
+
+    
+   9) Total No of Cities   
+       ```Total No of Cities = DISTINCTCOUNT(dim_cities[City])```
+
+   10) Total No of Females  
+
+        ![image](https://github.com/user-attachments/assets/d78e3022-f864-4ce3-ad21-f6b322a92541)
+
+   11) Total Respondents   
+        ```Total Respondents = DISTINCTCOUNT(dim_repondents[Respondent_ID])```
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Exploratory Data Analysis
