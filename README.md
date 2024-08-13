@@ -121,10 +121,10 @@ e) Multi row card gives the count of total male and females in tier 1 and 2 citi
 
 **Consumer Preference**    
 a) In Consumer preference report page, % of respondents showing health concerns was shown with average taste experience as card
-b) **Bar chart**  
-c) **Pie chart** added to display the top 10 vendors based on the sales.  
-d) **Horizontal bar chart** added to display the total quantity sold by each vendor with the vendor having maximum sales in the top.  
-e) Total orders by order month have been shown as **vertical bar chart** with the month having higher orders in the beginning and lower orders at the end.  
+b) **Bar chart** displays the count of conumer frequency 
+c) **Horizontal bar chart** added to display the total respondents with respect to each marketing channel.  
+d) Count of each brand was shown using a bar chart
+e) Typical consumption situation was found .  
 f) Vendors with second best selling item has been shown with the Item ID in a table visual  
 
 **Manager level analysis**   
