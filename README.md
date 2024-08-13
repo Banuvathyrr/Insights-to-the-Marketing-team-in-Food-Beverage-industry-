@@ -115,13 +115,13 @@ I have added 5 important pages.
 **Demographic insights**   
 a) In Demographic report page, 4 cards were inserted to show Total respondents, Total number of cities, Total number of males and females.  
 b) A **Bar chart** shows total respondents for each city.  
-c) The **Pie chart** gives the percentage split of total respondents for each gender.
-d) Second Period selector slicer helps to view the **last 7, 14 and 28 days sales amount**  (line plot)  
-e) Page navigator icons (buttons with image) added at the left of the report page to help for navigation to other pages  
+c) The **Pie chart** gives the percentage split of total respondents for each gender.  
+d) Stacked area chart shows the distribution of respondent count with respect to age
+e) Multi row card gives the count of total male and females in tier 1 and 2 cities
 
-**Vendor Performance**    
-a) In Vendor performance report page, total no. of vendors card was added along with other cards.   
-b) Two **slicers** were added: Vendor and Manager. To choose vendor or manager based on the need.  
+**Consumer Preference**    
+a) In Consumer preference report page, % of respondents showing health concerns was shown with average taste experience as card
+b) **Bar chart**  
 c) **Pie chart** added to display the top 10 vendors based on the sales.  
 d) **Horizontal bar chart** added to display the total quantity sold by each vendor with the vendor having maximum sales in the top.  
 e) Total orders by order month have been shown as **vertical bar chart** with the month having higher orders in the beginning and lower orders at the end.  
