@@ -133,94 +133,76 @@ f) Total respondents for each brand with thier consume reason has been shown in 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Results/ Findings
-**Demographic insights**
-- In the Codex survey, a total of 10,000 respondents participated across 10 cities. The survey saw a higher number of male respondents compared to female respondents. The higher number of male respondents might reflect gender trends in the food and beverage industry workforce or areas of interest that are currently male-dominated, such as certain sectors of food production or regulation.    
+**Demographic Insights:**
+- Survey Participation: The Codex survey included 10,000 respondents from 10 cities, with a higher number of male participants compared to female. This demographic trend may reflect gender imbalances in certain sectors of the food and beverage industry or interests.  
 
-- Bangalore's Leading Position: The high number of respondents from Bangalore suggests a strong interest in the food and beverage industry, possibly due to its diverse culinary scene and vibrant restaurant and hospitality sector. Bangalore is known for its tech-savvy population, which may be more engaged in health, nutrition, and culinary trends.  
+- City-Specific Engagement:
+Bangalore: Highest number of respondents, likely due to its diverse culinary scene and tech-savvy population engaged in health and nutrition trends.  
+Hyderabad and Mumbai: Both cities have rich food cultures and a high concentration of food and beverage professionals, contributing to their high engagement.  
+Chennai and Pune: Chennai’s traditional South Indian cuisine and Pune’s innovative food scene reflect strong local interest in food and beverage trends.  
+Kolkata and Ahmedabad: Participation from these cities indicates interest in traditional foods and global food trends.  
+Delhi: Lower respondent rate could suggest market saturation or the need for targeted engagement strategies.  
+Jaipur and Lucknow: Strong culinary traditions but lower engagement, potentially due to lesser focus on international food standards.  
+Tier 1 vs. Tier 2 Cities: Tier 1 cities generally show higher awareness and engagement with global food and beverage trends, including Codex standards, compared to Tier 2 cities.  
 
-- Hyderabad and Mumbai: Both cities have rich culinary histories and thriving food and beverage industries. Hyderabad's famous cuisine and Mumbai's diverse food culture likely contribute to their high engagement levels in the survey. These cities may also have a higher concentration of professionals in the food and beverage industry, influencing the survey's relevance.  
+**Consumer Preferences:**  
+- Consumption Frequency: Beverages are most commonly consumed 2-3 times a week, indicating they are a regular but not daily part of consumers' lives, often enjoyed socially or with meals.  
+- Marketing Channels: Online ads are the most effective marketing channel, reaching consumers through digital platforms. This highlights the importance of targeted digital advertising in engaging with specific audience segments.  
+- Consumption Situations:  
+Sports/Exercise: High consumption of beverages during sports or exercise indicates a demand for hydration and energy products.  
+Studying/Working: Beverages consumed during studying or working are chosen for their ability to enhance focus and productivity, highlighting the need for drinks that provide energy and concentration support.  
+Energy and Focus: There is significant consumer interest in beverages that offer increased energy and focus, driven by busy lifestyles and the need for convenient solutions to boost cognitive performance.  
 
-- Chennai and Pune: Chennai is known for its traditional South Indian cuisine, while Pune has a growing food scene, with an emphasis on innovation and diverse food offerings. The interest from these cities might reflect their dynamic food industries and consumer interest in new food and beverage trends.  
+**Brand Penetration:**  
+- Brand Reputation: Coca-Cola's strong reputation is a key factor in its popularity, reflecting consumer trust and the brand’s effective marketing and quality consistency.  
+- Price Range Preference: The favored price range of ₹50-₹99 reflects a balance between affordability and perceived value, making products in this range appealing to consumers.  
 
-- Kolkata and Ahmedabad: Known for their distinct culinary traditions, these cities' participation might indicate an interest in how traditional foods are represented in the Codex standards or a growing curiosity about global food trends and safety regulations.  
+**Reasons for Not Trying New Beverages:**
+- Health Concerns: Health-related concerns, including sugar content and artificial ingredients, prevent consumers from trying new beverages.
+- Availability: Limited local availability is a barrier to trying new products.
+- Caffeine Sensitivity: Some consumers avoid energy drinks due to their caffeine content, preferring beverages without stimulants.
+- Brand Perception and Desired Improvements:
 
-- Delhi: As the capital with a rich and varied food culture, Delhi's lower respondent rate could suggest either market saturation with surveys or a need for more targeted engagement strategies in the food and beverage sector.  
+- Neutral Perception: Most brands are perceived neutrally, indicating a lack of strong emotional connection or differentiation.
 
-- Jaipur and Lucknow: With strong culinary traditions, these cities may have lower engagement due to a lesser focus on international food standards or a need for more awareness and education on Codex guidelines in the food and beverage sector.
-
-- Greater Awareness and Engagement: Tier 1 cities like Bangalore, Hyderabad, Mumbai, and Chennai typically have more access to information and media related to global food and beverage trends, including Codex standards. This increased awareness can lead to higher participation in relevant surveys.  
-
-**Consumer Preference**
-- High Frequency of 2-3 Times a Week: The most popular consumption pattern is drinking beverages 2-3 times a week. This suggests that consumers enjoy beverages regularly but may still view them as an occasional treat rather than a daily necessity. This frequency may indicate that beverages are often consumed socially or as a complement to meals.
-
-- Online Ads Dominance: The highest number of respondents indicated exposure to marketing through online ads. This suggests that digital advertising is highly effective in reaching consumers, likely due to its widespread presence on social media platforms, search engines, and websites. Online ads offer precise targeting and personalization, making them a powerful tool for engaging specific audience segments.
-
-- Coca-Cola and Pepsi's leading positions highlight the importance of maintaining strong brand loyalty through consistent marketing and engagement with consumers. These brands should continue to innovate while preserving their core identities.  
-
-- Codex and Sky 9 should focus on building brand recognition and expanding their market presence through unique value propositions and effective distribution strategies.
-    
-
-**Top Vendors by Sales Amount**:  
-- Onus Global Fulfillment: Contributed approximately 10% of the total sales amount.  
-- Liola Home: Contributed approximately 7% of the total sales amount.  
-- South Store: Contributed approximately 6.1% of the total sales amount.  
-
-**Quantity Sold**:  
-- The total quantity sold by Onus Global Fulfillment was 61,931 units, making up approximately 10% of the overall quantity sold. This was followed by OJCommerce, South Store, and Fulfillment Concepts in terms of quantity sold.
-
-**Order Volume by Month**:   
-- The highest number of orders was recorded in March, followed by April, May, and January.
-
-**Total Sales by Manager**:  
-Manager A: Highest sales amount of $41.81M, managing 179 vendors and 29,199 distinct items.  
-Manager M: Total sales of 80.20K, managing 98 vendors and 7,770 distinct items.  
-Manager J: Total sales of 2.10M, managing 29 vendors and 4,707 distinct items.  
-Manager V: Total sales of 2.40M, managing 46 vendors and 4,571 distinct items.  
-Manager N: Total sales of 153.04K, managing 61 vendors and 859 distinct items.  
-Manager X: Total sales of 80.20K, managing 9 vendor and 294 distinct items.    
-
-**Linear Trend Analysis**:  
-There is a clear linear trend between the **count** of distinct **items**(item_id) and **total sales**, indicating that increasing the number of items significantly boosts total sales.
-In contrast, the count of vendors does not exhibit a linear trend with total sales, suggesting that simply increasing the number of vendors does not lead to a significant rise in sales
-
+**Desired Improvements:**
+- Reduce Sugar Content: There is a strong consumer demand for healthier options with less sugar.
+- More Natural Ingredients: A preference for natural ingredients reflects a trend towards clean labeling and transparency.
+- Wider Range of Flavors: Consumers desire more flavor variety to cater to diverse tastes.
+- Interest in Natural or Organic Products: 50% of respondents are interested in natural or organic products, indicating a significant market segment that values health and sustainability in their beverage choices.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Recommendation  
-1) **Focus on March Sales Peaks**:  
-- Promotional Campaigns: Since March saw a significant increase in sales, consider running targeted promotional campaigns during this month to capitalize on the trend.  
-- Stock Management: Ensure that inventory levels are adequate to meet the expected increase in demand in March.  
-
-2) **Leverage Top Vendors**:  
-- Partnership Development: Strengthen relationships with top vendors like Onus Global Fulfillment, Liola Home, and South Store to maintain and potentially increase their contribution to overall sales.  
-- Vendor Incentives : Provide incentives or support to these vendors to encourage the introduction of new items or exclusive deals that could drive higher sales.  
-
-3) **Optimize Product Offerings**:
-- Expand Item Range: Since there is a linear trend between the count of distinct items and total sales, increasing the variety of items offered could lead to higher sales.
-- Analyze Item Performance: Regularly review the performance of distinct items and focus on promoting high-performing items while reconsidering or discontinuing low-performing ones.
-
-4) **Monthly Sales Analysis**:
-- Seasonal Adjustments: Given the high order volumes in March, April, May, and January, plan for seasonal adjustments in inventory and marketing strategies to align with these peak months.  
-- Continuous Monitoring: Use historical sales data to predict future trends and adjust sales strategies accordingly.    
-
-5) **Enhance Vendor Management**:
-- Vendor Count vs. Item Count: The findings indicate that simply increasing the number of vendors does not significantly impact sales. Focus on increasing the count of distinct items from each vendor instead.  
-- Performance Benchmarks: Establish performance benchmarks for vendors based on sales, item count, and other relevant metrics to ensure consistent performance across the board.  
-
-6) **Sales and Item Correlation**:
-- Data-Driven Decisions: Utilize the clear correlation between item count and sales to make data-driven decisions on inventory management and product offerings.    
-- Predictive Analytics: Implement predictive analytics tools to forecast the impact of adding new items on overall sales and adjust strategies accordingly.    
-
-**Example Action Plan**  
--  March Promotions: Launch a "Spring Sale" campaign every March, featuring discounts and special offers on popular items.  
--  Vendor Partnerships: Schedule quarterly meetings with top vendors to discuss performance, introduce new products, and negotiate better terms.  
--  Inventory Expansion: Conduct market research to identify new product categories that could be introduced to increase item variety and boost sales.  
--  Performance Dashboards: Develop and regularly update Power BI dashboards that provide real-time insights into vendor and item performance for the sales team.  
--  Training: Train the sales team on using data analytics tools to monitor performance and make informed decisions.    
-
-By implementing these recommendations, the sales team at ABC eCommerce can effectively monitor and improve the performance of various vendors and items, ultimately driving higher sales and better customer satisfaction.
+To improve Codex's sales based on the survey findings, the marketing team can implement the following recommendations:  
+ 
+**1. Enhance Brand Perception**  
+Strengthen Brand Identity: Develop a clear and compelling brand narrative that differentiates Codex from competitors. Emphasize unique selling points and the benefits of Codex products.  
+Promote Transparency: Highlight the use of natural ingredients and any health benefits prominently in marketing materials. Build trust by being transparent about product formulations and sourcing.  
+**2. Address Health Concerns**  
+Reduce Sugar Content: Reformulate products to lower sugar content and market these changes as a commitment to healthier options.
+Highlight Natural Ingredients: Emphasize natural ingredients and health benefits in product descriptions and advertising campaigns. Use clean labeling to appeal to health-conscious consumers.
+**3. Expand Product Range**  
+Introduce New Flavors: Develop and launch a wider range of flavors to cater to diverse consumer preferences. Conduct market research to identify popular and emerging flavor trends.  
+Offer Caffeine-Free Options: Provide alternatives to energy drinks with lower caffeine or caffeine-free options to appeal to consumers sensitive to stimulants.  
+**4. Optimize Pricing and Distribution**  
+Price Positioning: Ensure that pricing aligns with consumer expectations and perceived value. Consider offering promotions or discounts within the ₹50-₹99 price range to attract price-sensitive consumers.  
+Improve Availability: Expand distribution channels to ensure products are available locally. Partner with retailers and explore online sales to increase accessibility.  
+**5. Leverage Effective Marketing Channels**  
+Digital Advertising: Continue to invest in online ads, focusing on targeted campaigns to reach specific consumer segments. Utilize social media, search engines, and websites for precise targeting.  
+Content Marketing: Create engaging content that educates consumers about the benefits of Codex products, such as blog posts, videos, and social media updates.  
+**6. Increase Engagement with Key Demographics**  
+Targeted Campaigns for Tier 1 Cities: Focus marketing efforts on Tier 1 cities where there is higher awareness and engagement. Tailor messages to align with local trends and preferences.  
+Educational Campaigns for Tier 2 Cities: Develop educational campaigns to raise awareness and interest in Codex standards and products in Tier 2 cities.  
+**7. Enhance Customer Experience**   
+Feedback Mechanisms: Implement channels for customers to provide feedback and suggestions. Use this information to continuously improve products and services.  
+Loyalty Programs: Develop loyalty programs to reward repeat customers and encourage brand advocacy.  
+**8. Focus on Key Consumption Situations**  
+Sports and Exercise: Promote products that cater to sports and exercise needs, such as hydration and energy drinks, through partnerships with fitness influencers and events.  
+Studying and Working: Market beverages that enhance focus and productivity to students and professionals, highlighting their benefits for improving cognitive performance.
+By implementing these recommendations, Codex can better align its marketing strategies with consumer preferences, address key concerns, and enhance its overall market presence.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Dashboard 
-- Check the dashboard here: https://mavenanalytics.io/project/17351
+- Check the dashboard here: 
  
 
 
