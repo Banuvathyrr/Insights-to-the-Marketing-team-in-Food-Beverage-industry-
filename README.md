@@ -127,19 +127,38 @@ d) Count of each brand was shown using a bar chart
 e) Typical consumption situation was shown using a funnel chart.  
 f) Total respondents for each brand with thier consume reason has been shown in the form of a Matrix.  
   
-**Manager level analysis**   
-a) A **funnel chart** has been used to show total sales by manager  
-b) Total number of managers in the company is shown as card visual on top of the report.  
-c) **Tree map** shown to display the total quantity sold under each manager.  
-d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of **tabular visual**  
-e) Table with manager on each row is provided with **drill through** option to see the details about the selected manager in the table of Manager report.
+
 
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Results/ Findings
-**Sales Trends**:  
-- Total sales amount saw a significant increase in March, reaching its peak towards the end of the month. After this peak, sales began to gradually decline.    
+**Demographic insights**
+- In the Codex survey, a total of 10,000 respondents participated across 10 cities. The survey saw a higher number of male respondents compared to female respondents. The higher number of male respondents might reflect gender trends in the food and beverage industry workforce or areas of interest that are currently male-dominated, such as certain sectors of food production or regulation.    
+
+- Bangalore's Leading Position: The high number of respondents from Bangalore suggests a strong interest in the food and beverage industry, possibly due to its diverse culinary scene and vibrant restaurant and hospitality sector. Bangalore is known for its tech-savvy population, which may be more engaged in health, nutrition, and culinary trends.  
+
+- Hyderabad and Mumbai: Both cities have rich culinary histories and thriving food and beverage industries. Hyderabad's famous cuisine and Mumbai's diverse food culture likely contribute to their high engagement levels in the survey. These cities may also have a higher concentration of professionals in the food and beverage industry, influencing the survey's relevance.  
+
+- Chennai and Pune: Chennai is known for its traditional South Indian cuisine, while Pune has a growing food scene, with an emphasis on innovation and diverse food offerings. The interest from these cities might reflect their dynamic food industries and consumer interest in new food and beverage trends.  
+
+- Kolkata and Ahmedabad: Known for their distinct culinary traditions, these cities' participation might indicate an interest in how traditional foods are represented in the Codex standards or a growing curiosity about global food trends and safety regulations.  
+
+- Delhi: As the capital with a rich and varied food culture, Delhi's lower respondent rate could suggest either market saturation with surveys or a need for more targeted engagement strategies in the food and beverage sector.  
+
+- Jaipur and Lucknow: With strong culinary traditions, these cities may have lower engagement due to a lesser focus on international food standards or a need for more awareness and education on Codex guidelines in the food and beverage sector.
+
+- Greater Awareness and Engagement: Tier 1 cities like Bangalore, Hyderabad, Mumbai, and Chennai typically have more access to information and media related to global food and beverage trends, including Codex standards. This increased awareness can lead to higher participation in relevant surveys.  
+
+**Consumer Preference**
+- High Frequency of 2-3 Times a Week: The most popular consumption pattern is drinking beverages 2-3 times a week. This suggests that consumers enjoy beverages regularly but may still view them as an occasional treat rather than a daily necessity. This frequency may indicate that beverages are often consumed socially or as a complement to meals.
+
+- Online Ads Dominance: The highest number of respondents indicated exposure to marketing through online ads. This suggests that digital advertising is highly effective in reaching consumers, likely due to its widespread presence on social media platforms, search engines, and websites. Online ads offer precise targeting and personalization, making them a powerful tool for engaging specific audience segments.
+
+- Coca-Cola and Pepsi's leading positions highlight the importance of maintaining strong brand loyalty through consistent marketing and engagement with consumers. These brands should continue to innovate while preserving their core identities.  
+
+- Codex and Sky 9 should focus on building brand recognition and expanding their market presence through unique value propositions and effective distribution strategies.
+    
 
 **Top Vendors by Sales Amount**:  
 - Onus Global Fulfillment: Contributed approximately 10% of the total sales amount.  
