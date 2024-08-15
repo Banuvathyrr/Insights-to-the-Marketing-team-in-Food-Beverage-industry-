@@ -120,13 +120,13 @@ d) Stacked area chart shows the distribution of respondent count with respect to
 e) Multi row card gives the count of total male and females in tier 1 and 2 cities
 
 **Consumer Preference**    
-a) In Consumer preference report page, % of respondents showing health concerns was shown with average taste experience as card
-b) **Bar chart** displays the count of conumer frequency 
-c) **Horizontal bar chart** added to display the total respondents with respect to each marketing channel.  
-d) Count of each brand was shown using a bar chart
-e) Typical consumption situation was found .  
-f) Vendors with second best selling item has been shown with the Item ID in a table visual  
-
+a) In Consumer preference report page, % of respondents showing health concerns was shown with average taste experience as card  
+b) **Bar chart** displays the count of conumer frequency   
+c) **Horizontal bar chart** added to display the total respondents with respect to each marketing channel.    
+d) Count of each brand was shown using a bar chart  
+e) Typical consumption situation was shown using a funnel chart.  
+f) Total respondents for each brand with thier consume reason has been shown in the form of a Matrix.  
+  
 **Manager level analysis**   
 a) A **funnel chart** has been used to show total sales by manager  
 b) Total number of managers in the company is shown as card visual on top of the report.  
