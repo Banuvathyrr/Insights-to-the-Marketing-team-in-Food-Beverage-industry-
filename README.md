@@ -1,5 +1,5 @@
 
-<h1 align="center">Insights to the Marketing team in Food and Beverage industry</h1>
+<h1 align="center">Data-Driven Insights into Consumer Behavior and Brand Perception in the Beverage Industry</h1>
 
 
 ### Introduction 
@@ -212,7 +212,7 @@ By implementing these recommendations, Codex can better align its marketing stra
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Dashboard 
-- Check the dashboard here: 
+- Check the dashboard here: https://mavenanalytics.io/project/18390
  
 
 
